@@ -1,0 +1,235 @@
+Package: animation
+Version: 2.5.1
+Depends: R (>= 2.14.0)
+Imports: magick
+Suggests: MASS, class, testit
+License: GPL
+MD5sum: 6e2bfe8949e6379ae9a282fd1249293d
+NeedsCompilation: no
+
+Package: blogdown
+Version: 0.8.2
+Imports: rmarkdown, bookdown (>= 0.5), knitr (>= 1.17), htmltools, yaml
+        (>= 2.1.19), httpuv (>= 1.4.0), xfun (>= 0.3), servr (>= 0.8)
+Suggests: testit, shiny, miniUI, RcppTOML, stringr, rstudioapi, tools,
+        processx, later
+License: GPL-3
+MD5sum: 346e1f61f68d5cd448c6bb22343336e1
+NeedsCompilation: no
+
+Package: bookdown
+Version: 0.7.15
+Imports: htmltools (>= 0.3.6), knitr (>= 1.16), rmarkdown (>= 1.9),
+        xfun (>= 0.2), tinytex, yaml (>= 2.1.14)
+Suggests: htmlwidgets, rstudioapi, miniUI, rsconnect (>= 0.4.3), servr
+        (>= 0.3), shiny, testit (>= 0.5), tufte, webshot
+License: GPL-3
+MD5sum: 7254ebf18de2de74dd436ed8f04df81f
+NeedsCompilation: no
+
+Package: DT
+Version: 0.2.12
+Imports: htmltools (>= 0.3.5), htmlwidgets (>= 0.6), magrittr,
+        crosstalk
+Suggests: jsonlite (>= 0.9.16), knitr (>= 1.8), rmarkdown, shiny (>=
+        0.12.1)
+License: GPL-3 | file LICENSE
+MD5sum: 8bd14cebf97da43864370dc404e82630
+NeedsCompilation: no
+
+Package: evaluate
+Version: 0.11
+Depends: R (>= 3.0.2)
+Imports: methods, stringr (>= 0.6.2)
+Suggests: testthat, lattice, ggplot2
+License: MIT + file LICENSE
+MD5sum: de1c8662fec68a0e43bf3e28ffdaf890
+NeedsCompilation: no
+
+Package: formatR
+Version: 1.5
+Depends: R (>= 3.0.2)
+Suggests: codetools, shiny, testit, rmarkdown, knitr
+License: GPL
+MD5sum: b5ca142b3a149c5f273b83e0f63926a4
+NeedsCompilation: no
+
+Package: highr
+Version: 0.6.1
+Depends: R (>= 3.0.2)
+Suggests: knitr, testit
+License: GPL
+MD5sum: dff629e669c8648d4667d558a030db12
+NeedsCompilation: no
+
+Package: htmlwidgets
+Version: 0.4.2
+Imports: htmltools (>= 0.2.6), jsonlite (>= 0.9.16), yaml
+Suggests: knitr (>= 1.8)
+Enhances: shiny (>= 0.12)
+License: MIT + file LICENSE
+MD5sum: 35c0f20d1a090db1876afc2cfac88991
+NeedsCompilation: no
+
+Package: knitr
+Version: 1.20.8
+Depends: R (>= 3.1.0)
+Imports: evaluate (>= 0.10), highr, markdown, stringr (>= 0.6), yaml
+        (>= 2.1.19), methods, xfun, tools
+Suggests: formatR, testit, digest, rgl (>= 0.95.1201), codetools,
+        rmarkdown, htmlwidgets (>= 0.7), webshot, tikzDevice (>= 0.10),
+        tinytex, reticulate (>= 1.4), JuliaCall (>= 0.11.1), png, jpeg,
+        xml2 (>= 1.2.0), httr, DBI (>= 0.4-1), showtext, tibble
+License: GPL
+MD5sum: e6ac401361d807a8dc3fd2a826737a5b
+NeedsCompilation: no
+
+Package: markdown
+Version: 0.7.11
+Depends: R (>= 2.11.1)
+Imports: utils, mime (>= 0.3)
+Suggests: knitr, RCurl
+License: GPL-2
+MD5sum: f59f3bf00d46e3ec0691b530a27af182
+NeedsCompilation: yes
+
+Package: mime
+Version: 0.5.1
+Imports: tools
+License: GPL
+MD5sum: f2a7a8af5dd8bfdfcd8c65a7815142b2
+NeedsCompilation: yes
+
+Package: MSG
+Version: 0.2.4
+Imports: RColorBrewer
+Suggests: animation, KernSmooth, rgl, plotrix, ggplot2 (>= 0.9), sna
+License: GPL
+MD5sum: 72af4ce4c9263881601d804b8f3b283e
+NeedsCompilation: no
+
+Package: printr
+Version: 0.1
+Imports: knitr (>= 1.16)
+Suggests: tools, rmarkdown
+License: GPL
+MD5sum: 314d1d39ed9ec4777e55f7f21af62311
+NeedsCompilation: no
+
+Package: Rd2roxygen
+Version: 1.6.2
+Imports: roxygen2 (>= 4.0.0), formatR (>= 1.0)
+Suggests: knitr (>= 1.9), rmarkdown
+License: GPL
+MD5sum: 7bba8b6ca119cf1c74cba1104b83f076
+NeedsCompilation: no
+
+Package: recharts
+Version: 0.0.4
+Imports: htmltools, htmlwidgets (>= 0.6), magrittr
+Suggests: plyr, knitr, rmarkdown, shiny (> 0.11.1)
+License: MIT + file LICENSE
+MD5sum: 2ed3dd1b60e24cc4b798f6810d829ec2
+NeedsCompilation: no
+
+Package: rlp
+Version: 0.0.3
+Depends: R (>= 3.0.0)
+Suggests: knitr (>= 1.8.12), rmarkdown
+License: MIT + file LICENSE
+MD5sum: ef1d951c44d827e3dcf571cbd565b29b
+NeedsCompilation: no
+
+Package: rmarkdown
+Version: 0.9.5
+Depends: R (>= 3.0)
+Imports: tools, utils, grDevices, knitr (>= 1.11), yaml (>= 2.1.5),
+        htmltools (>= 0.2.4), caTools
+Suggests: shiny (>= 0.11), tufte, testthat, digest
+License: GPL-3
+MD5sum: 045160694d5281412bf89bf622313d63
+NeedsCompilation: no
+
+Package: rnotebook
+Version: 0.0.2
+Imports: knitr (>= 1.8), jsonlite (>= 0.9.14)
+Suggests: rmarkdown, servr (> 0.1)
+License: MIT + file LICENSE
+MD5sum: a92f298af08c2bd14a483fdea25d153c
+NeedsCompilation: no
+
+Package: runr
+Version: 0.0.8
+License: GPL
+MD5sum: cb4b262a559cfe71a3f53e2287277944
+NeedsCompilation: no
+
+Package: servr
+Version: 0.10.2
+Depends: R (>= 3.0.0)
+Imports: mime (>= 0.2), httpuv (>= 1.4.0), xfun, jsonlite
+Suggests: tools, later, rstudioapi, knitr (>= 1.9), rmarkdown
+License: GPL
+MD5sum: 1bac11fc53242bb44b50d559fe8265fe
+NeedsCompilation: no
+
+Package: shiny
+Version: 0.12.2.9000
+Depends: R (>= 3.0.0), methods
+Imports: utils, httpuv (>= 1.3.3), mime (>= 0.3), jsonlite (>= 0.9.16),
+        xtable, digest, htmltools (>= 0.2.6), R6 (>= 2.0)
+Suggests: datasets, Cairo (>= 1.5-5), testthat, knitr (>= 1.6),
+        markdown, ggplot2
+License: GPL-3 | file LICENSE
+MD5sum: 8b5ffeeb954eeb2762606e618bd726a8
+NeedsCompilation: no
+
+Package: testit
+Version: 0.8.1
+Suggests: rstudioapi
+License: GPL
+MD5sum: 82f607f11f756c31bcf999dcbb013b7e
+NeedsCompilation: no
+
+Package: tikzDevice
+Version: 0.10-1
+Depends: R (>= 2.14.0)
+Imports: filehash (>= 2.3), png
+Suggests: testthat (>= 0.8.1), evaluate, stringr, ggplot2, maps, knitr,
+        crayon
+License: GPL (>= 2)
+MD5sum: 5169180fb669611eb4ec5a42afbdfc84
+NeedsCompilation: yes
+
+Package: tinytex
+Version: 0.6.6
+Imports: xfun (>= 0.3)
+Suggests: testit
+License: MIT + file LICENSE
+MD5sum: 0e3c0341fe9e7c0ef099abbb69e2f330
+NeedsCompilation: no
+
+Package: tufte
+Version: 0.4.1
+Imports: htmltools, xfun, knitr (>= 1.18), rmarkdown
+License: GPL-3
+MD5sum: 23e4a6a0ed0eae037dbfc6d0e727e645
+NeedsCompilation: no
+
+Package: xaringan
+Version: 0.7
+Imports: htmltools, knitr (>= 1.16), servr (>= 0.5), xfun (>= 0.2),
+        rmarkdown
+Suggests: rstudioapi, testit
+License: MIT + file LICENSE
+MD5sum: 0942f688a0cbb7298035c0765a0c8d71
+NeedsCompilation: no
+
+Package: xfun
+Version: 0.3.5
+Imports: tools
+Suggests: testit, parallel, rstudioapi, tinytex, mime, markdown, knitr,
+        htmltools, base64enc, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 9744adf22a827ba6f6ead9135c2457fc
+NeedsCompilation: no
